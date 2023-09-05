@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.bg-image {
+  position: relative;
+  width: 100%;
+}
+.bg-image img {
+  width: 100%;
+  max-height: 842px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.bg-image .transparent {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  display: block;
+  padding: 55px;
+  width: 100%;
+  height: 105px;
+  background: linear-gradient(to bottom, transparent 1%, rgb(255, 255, 255) 99%);
+}
+
+header {
+  width: 100%;
+}
+header .navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 47px;
+}
+header .navbar .navbar-title h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+header .navbar .menu {
+  display: flex;
+}
+header .navbar .menu ul {
+  display: flex;
+}
+header .navbar .menu ul li {
+  margin-right: 24px;
+}
+header .navbar .menu ul li a {
+  display: inline-block;
+  padding: 8px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+header .navbar .menu ul li a.active {
+  border-bottom: 1px solid #fff;
+}
+header .navbar .menu button {
+  border: none;
+  background-color: transparent;
+}
+header .navbar .menu button a {
+  display: inline-block;
+  padding: 8px;
+  color: #FFFFFF;
+  opacity: 0.7;
+  font-weight: 700;
+}
+header .main-title {
+  position: absolute;
+  top: 125px;
+}
+header .main-title h1 {
+  display: inline-block;
+  font-size: 72px;
+  font-weight: 700;
+  color: #fff;
+  max-width: 759px;
+}/*# sourceMappingURL=style.css.map */

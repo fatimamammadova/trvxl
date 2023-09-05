@@ -1,0 +1,58 @@
+header {
+    width: 100%;
+    .navbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        @include Flexible(center,space-between);
+        padding: 24px 47px;
+        .navbar-title {
+            h1 {
+                font-size: 32px;
+                font-weight: 700;
+                color:  #FFFFFF;
+            }
+        }
+        .menu {
+            display: flex;
+            ul {
+                display: flex;
+                li {
+                    margin-right: 24px;
+                    a {
+                        display: inline-block;
+                        padding: 8px;
+                        color: #FFFFFF;
+                        opacity: .7;
+                        &.active {
+                            border-bottom: 1px solid #fff;
+                        }
+                    }
+                }
+            }
+            button {
+                border: none;
+                background-color: transparent;
+                a {
+                    display: inline-block;
+                    padding: 8px;
+                    color: #FFFFFF;
+                    opacity: .7;
+                    font-weight: 700;
+                }
+            }
+        }    
+    }
+    .main-title {
+        position: absolute;
+        top: 125px;
+        h1 {
+            display: inline-block;
+            font-size: 72px;
+            font-weight: 700;
+            color: #fff;
+            max-width: 759px;
+        }
+    }
+}
