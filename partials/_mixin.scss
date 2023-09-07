@@ -1,5 +1,0 @@
-@mixin Flexible($a-items:null,$j-cont:null) {
-    display: flex;
-    align-items: $a-items;
-    justify-content: $j-cont;
-}
